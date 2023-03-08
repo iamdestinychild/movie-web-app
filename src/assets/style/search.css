@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.search_layer{
+    /* background-color: red; */
+    padding: 2rem 5rem;
+}
+
+.search_layer_area{
+    width: 100%;
+    position: relative;
+    /* border: 1px solid #101010; */
+}

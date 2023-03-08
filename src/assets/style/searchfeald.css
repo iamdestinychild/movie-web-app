@@ -1,0 +1,109 @@
+.search_area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffff;
+    border: 1px solid #cccc;
+    padding-right: 1.5rem;
+    border-radius: 0.4rem;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.search_area input{
+    width: 80%;
+    padding: 0.7rem;
+    padding-left: 0.5rem;
+    border-radius: 0.2rem;
+    background-color: transparent;
+    border: none;
+    /* border: 1px solid yellow; */
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.search_area input:focus{
+    outline: none;
+}
+
+.search_cancel{
+    display: inline-block;
+    color: #777777cc;
+    font-size: 23px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    z-index: -1;
+    transition: opacity 0.25s ease-in;
+    opacity: 0;
+    /* display: none; */
+}
+
+.search_cancel_active{
+    z-index: 99;
+    opacity: 1;
+}
+
+.search_filter{
+    width: 17%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #777777cc;
+    border-top-left-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+    cursor: pointer;
+    padding: 0.9rem 0;
+    padding-top: 1rem;
+    padding-left: 0.9rem;
+    border-right: 1px solid #a7a7a7cc;
+}
+
+.search_filter_tag{
+    color: #101010;
+    margin-right: 0.3rem;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.search_filter_icon{
+    margin-right: 0.3rem;
+    color: #101010;
+    transition: transform 0.45s ease;
+}
+
+.rotate_icon{
+    transform: rotate(180deg);
+    transition: transform 0.45s ease;
+}
+
+
+.filtertick{
+    min-width: 12rem;
+    background-color: #ffff;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px 1px #ccc;/*#60606026*/
+    border-radius: 0.3rem;
+    margin-top: 10px;
+    padding: 0.3rem;
+    position: absolute;
+    left: 15%;
+}
+
+.filtertick ul{
+    list-style: none;
+    text-align: center;
+}
+
+.filtertick ul li{
+    padding: 0.3rem 0;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    font-size: 15px;
+    font-weight: 600;
+    transition: background-color 0.25s ease-out;
+}
+
+.filtertick ul li:hover{
+    background-color: #ecececcc;
+}

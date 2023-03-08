@@ -1,0 +1,33 @@
+.gyro_filter {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem auto;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  border: 1px solid #cccc;
+  max-width: 200px;
+}
+
+.gyro_filter span {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding: auto 1rem;
+  text-align: center;
+  cursor: pointer;
+  z-index: 99;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.search_gyro {
+  position: absolute;
+  top: 0;
+  left: auto;
+  right: 0;
+  max-width: 50%;
+  background-color: green;
+  border-radius: 2rem;
+  transition: all ease-in 0.2s;
+}

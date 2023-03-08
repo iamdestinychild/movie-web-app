@@ -1,0 +1,28 @@
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    background-color: red;
+}
+
+
+.nav_logo{
+    width: 4rem;
+    height: 4rem;
+}
+
+.nav ul{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 2rem;
+    /* background-color: green; */
+}
+
+.nav ul li{
+    color: #ffff;
+}
